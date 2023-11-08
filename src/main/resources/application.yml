@@ -4,6 +4,10 @@ spring:
     url: jdbc:mysql://localhost:3306/big_event
     username: root
     password: xun...
+  data:
+    redis:
+      port: 6379
+      host: localhost
 
 mybatis:
   configuration:
